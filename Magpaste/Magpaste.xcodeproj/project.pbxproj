@@ -29,6 +29,7 @@
 		F7A13FD65BC247CD02321221 /* PanelEdgeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9644868F22621988C612B00 /* PanelEdgeStore.swift */; };
 		FC0BF62AA7FBDBFB4BD31750 /* HotKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C3F7A81DA7CA2D217F258A /* HotKeyManager.swift */; };
 		FFC20D1CFF20F423CF820BC6 /* PanelEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B7C49CD51D68810F4AD07D /* PanelEdge.swift */; };
+		5A1C0DE0A55E7000000000A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1C0DE0A55E7000000000A2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		E55A97B41398FABF742338E2 /* KeyComboStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyComboStore.swift; sourceTree = "<group>"; };
 		F24390990CB6F7BD8C970A3C /* MagpasteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagpasteApp.swift; sourceTree = "<group>"; };
 		F3C5D3685202CB7A14021C35 /* SectionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionStore.swift; sourceTree = "<group>"; };
+		5A1C0DE0A55E7000000000A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		B5722FC4F81C8876A980761A /* Magpaste */ = {
 			isa = PBXGroup;
 			children = (
+				5A1C0DE0A55E7000000000A2 /* Assets.xcassets */,
 				8D1B6A3800B4E4DAC6757212 /* ClipboardHistoryStore.swift */,
 				CF8E89E2B7EF18A2AFFEF3FA /* ClipboardItem.swift */,
 				8099D1577A10377A06F323E5 /* ClipboardItemCard.swift */,
@@ -130,6 +133,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68D94158CF2474557D86C0AD /* Build configuration list for PBXNativeTarget "Magpaste" */;
 			buildPhases = (
+				5A1C0DE0A55E7000000000A3 /* Resources */,
 				B68FCA56FEA15742558D5547 /* Sources */,
 				C4FABB1944AD0E93CD9839A4 /* Frameworks */,
 			);
@@ -177,6 +181,17 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		5A1C0DE0A55E7000000000A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1C0DE0A55E7000000000A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B68FCA56FEA15742558D5547 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -212,7 +227,7 @@
 		607858AD17BF89108D62C24B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -291,7 +306,7 @@
 		9ED467995E2BCE0CB17170B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;

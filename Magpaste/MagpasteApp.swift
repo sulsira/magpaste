@@ -24,7 +24,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
         if let button = statusItem?.button {
-            button.image = NSImage(systemSymbolName: "doc.on.clipboard", accessibilityDescription: "Clipboard History")
+            let menuBarIcon = NSImage(named: "MenuBarIcon")
+            menuBarIcon?.isTemplate = false
+            button.image = menuBarIcon ?? NSImage(systemSymbolName: "doc.on.clipboard", accessibilityDescription: "Clipboard History")
+            button.setAccessibilityLabel("Clipboard History")
             button.action = #selector(statusItemClicked)
             button.target = self
             button.sendAction(on: [.leftMouseUp, .rightMouseUp])
