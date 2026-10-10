@@ -1,0 +1,117 @@
+# ---------- macOS ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+Icon?
+
+# ---------- Xcode build output ----------
+build/
+DerivedData/
+*.app
+*.dSYM
+*.dSYM.zip
+*.xcarchive
+*.ipa
+*.pkg
+*.dmg
+*.zip
+
+# ---------- Xcode user state (contains your username) ----------
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.xcuserdatad
+*.moved-aside
+*.hmap
+*.ipa
+timeline.xctimeline
+playground.xcworkspace
+*.perspectivev3
+*.pbxuser
+*.mode1v3
+*.mode2v3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+# ---------- Swift Package Manager ----------
+.build/
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+
+# ---------- Dependency managers ----------
+Pods/
+Carthage/Build/
+Carthage/Checkouts/
+
+# ---------- Test and coverage output ----------
+*.xcresult
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+coverage/
+
+# ---------- Logs ----------
+*.log
+*.crash
+*.ips
+
+# ---------- Secrets and signing (never commit) ----------
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.p8
+*.cer
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ---------- App data (history may hold private clipboard text) ----------
+history.json
+sections.json
+
+# ---------- Editors and IDEs ----------
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+.history/
+
+# ---------- Local AI and dev scratch ----------
+.local/
+.claude/
+CLAUDE.local.md
+
+# ---------- Misc ----------
+tmp/
+temp/
+*.bak
+*.orig
+*.rej
+
+# ---------- Keep these tracked ----------
+# Shared project settings and the XcodeGen spec must stay in the repo.
+!Magpaste/Magpaste.xcodeproj/xcshareddata/
+!project.yml
