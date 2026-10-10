@@ -4,6 +4,14 @@ Magpaste is a clipboard app for macOS only. It runs on Apple Macs with macOS 14 
 
 It keeps a searchable history of what you copy and pastes any past clip back with one click. Menu-bar only. Tracks the system clipboard, saves history to disk, and shows it as a color-coded card panel docked to any screen edge. Themed after the Eurasian magpie (near-white base, silvery-blue wing sheen, bronze-green tail sheen).
 
+## Demo
+
+![Magpaste demo: the panel opens, a section is created, and a clip is pinned](docs/demo/magpaste-demo.gif)
+
+The clip shows the panel sliding in with seven copied clips, a new section being created from the `+` pill, and a card being pinned. Idle moments are sped up 2.5x. The clip is 14 seconds long.
+
+- Full quality video (MP4, 6 MB): [`docs/demo/magpaste-demo.mp4`](docs/demo/magpaste-demo.mp4)
+
 ## Download and use
 
 No prebuilt release exists yet. You build it from source. It takes about 2 minutes.
