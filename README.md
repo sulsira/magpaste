@@ -12,7 +12,7 @@ No prebuilt release exists yet. You build it from source. It takes about 2 minut
 
 1. Install Xcode from the Mac App Store. Open it once and accept the license.
 2. Clone the repo:
-   `git clone https://github.com/<your-username>/magpaste.git`
+   `git clone https://github.com/sulsira/magpaste.git`
 3. Or click **Code → Download ZIP** on the GitHub page and unzip it.
 
 ### Build and install

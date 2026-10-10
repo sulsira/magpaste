@@ -39,7 +39,7 @@ Good first contributions are listed under **Known gaps** and **Roadmap** in `REA
 
 1. Fork and clone the repo:
    ```bash
-   git clone https://github.com/<your-username>/magpaste.git
+   git clone https://github.com/sulsira/magpaste.git
    cd magpaste
    ```
 2. Open `Magpaste/Magpaste.xcodeproj` in Xcode.
